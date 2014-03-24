@@ -1,9 +1,9 @@
 %define upstream_name    Dist-Zilla-Plugin-MetaProvides-FromFile
-%define upstream_version 1.11034201
+%define upstream_version 1.11060211
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	If nothing else works, pull in hand-crafted metadata from a specified file
 License:	GPL+ or Artistic
@@ -48,4 +48,5 @@ perl Build.PL installdirs=vendor
 %doc Changes LICENSE META.json META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
