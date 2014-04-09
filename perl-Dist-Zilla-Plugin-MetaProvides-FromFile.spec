@@ -6,6 +6,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	If nothing else works, pull in hand-crafted metadata from a specified file
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -48,5 +49,6 @@ perl Build.PL installdirs=vendor
 %doc Changes LICENSE META.json META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
 
